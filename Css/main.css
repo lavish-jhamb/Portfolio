@@ -121,7 +121,7 @@ a{
   .main-content{
     /* overflow: scroll; */
     /* border:solid 3px red; */
-    padding-left: 40px;
+    padding-left:40px;
     /* scrollbar-width: thin; */
   }
 #left-wrapper{
@@ -206,26 +206,16 @@ a{
   }
 
       @media screen and (min-width:640px){
-
-    .main-content{
-      padding-right:15px;
-      /* border: solid 3px red; */
-      height: 100%;
-      /* overflow: hidden; */
-    }
     .card-container{
-      /* border: solid 3px blue; */
       display:flex;
       justify-content: space-between;
       flex-wrap: wrap;
       align-items: center;
-      /* margin-top:2em; */
       overflow: hidden;
-      /* height:500px; */
     }
     .cards{
       margin:10px 0;
-      flex: 0 1 calc(50% - 10px);
+      flex: 0 1 calc(50% - 15px);
     }
     .cards i{
       font-size:2.4em;
@@ -254,12 +244,12 @@ a{
     }
     .main-content{
       padding-left:70px;
+      padding-right: 15px;
     }
     .hanging-logo{
       font-size: 2em;
     }
     .cards{
-      /* margin:1em 0; */
       flex: 0 1 calc(50% - 1em);
     }
     #linear-bg{
