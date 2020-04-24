@@ -252,6 +252,9 @@ a{
     .cards{
       flex: 0 1 calc(50% - 1em);
     }
+    .card-link h6{
+      font-size:1.2em!important;
+    }
     #linear-bg{
       padding:2em 3em;
     }
